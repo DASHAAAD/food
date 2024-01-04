@@ -12,13 +12,30 @@
 
 /* ------reset------ */
 
+
 ol,
 ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+
 /* ------/reset------ */
 
+
+body {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #363853;
+    background-color: #FFFFFF;
+}
 
 .container {
     width: 100%;
@@ -35,8 +52,6 @@ ul {
     line-height: 1.38;
 }
 
-.logo {}
-
 .button {
     display: inline-flex;
     justify-content: center;
@@ -48,22 +63,9 @@ ul {
     border-radius: 5px;
 }
 
-
 img {
     object-fit: contain;
 }
-
-/* ------user-icons------ */
-
-.user-icons {}
-
-.user-icons__list {}
-
-.user-icons__item {}
-
-.user-icons__link {}
-
-/* ------/user-icons------ */
 
 
 /* ------header------- */
@@ -73,19 +75,10 @@ img {
 .header__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     column-gap: 10px;
 }
-
-.header__logo {}
-
-.header__logo-img {}
-
-.logo__image {}
-
-.header__menu {}
-
-.menu {}
 
 .menu__list {
     display: flex;
@@ -93,10 +86,19 @@ img {
     column-gap: 60px;
 }
 
-.menu__item {}
+.menu__link:hover {
+    color: #FF7A50;
+    transition: all 2s;
+}
 
-.menu__link {}
+.user-icons__list {
+    display: flex;
+    column-gap: 61px;
+}
 
-.header__button {}
+.header__button {
+    padding-inline: 28px;
+    writing-mode: horizontal-tb;
+}
 
 /* ------/header------ */
