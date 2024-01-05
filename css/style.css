@@ -297,3 +297,31 @@ img {
 }
 
 /* ------/restaurant------- */
+
+/* ------download------ */
+
+.download {
+}
+.download__container {
+    display: flex;
+   align-items: center;
+    column-gap: 10px;
+}
+
+.download__info {
+    max-width: 538px;
+}
+.download__title {
+    margin-bottom: 30px;
+}
+
+.download__text {
+    margin-bottom: 30px;
+}
+
+.download__link-img--apple {
+    margin-right: 35px;
+}
+
+
+/* ------/download------- */
