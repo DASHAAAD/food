@@ -40,7 +40,6 @@ button {
     border: none;
 }
 
-
 /* ------/reset------ */
 
 body {
@@ -226,3 +225,40 @@ img {
 }
 
 /* -------/categoty------ */
+
+/* -----delivery------ */
+.delivery {
+}
+.delivery__container {
+    display: flex;
+    align-items: center;
+    column-gap: 137px;
+}
+
+.delivery__title {
+    margin-bottom: 30px;
+}
+.delivery__text {
+    margin-bottom: 13px;
+}
+.delivery__list {
+    margin-bottom: 50px;
+}
+.delivery__item {
+    margin-bottom: 22px;
+}
+.delivery__link {
+    display: flex;
+    text-align: center;
+}
+.delivery__link svg {
+    margin-right: 29px;
+}
+
+.delivery__button {
+    width: 176px;
+    height: 58px;
+    border-radius: 30px 30px 1px 30px;
+}
+
+/* -----/delivery------ */
