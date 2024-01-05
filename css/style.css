@@ -325,3 +325,59 @@ img {
 
 
 /* ------/download------- */
+
+/* ------reviews------ */
+.reviews {
+    margin-bottom: 125px;
+}
+
+.reviews__title {
+    margin-bottom: 67px;
+    text-align: center;
+}
+
+.reviews__content {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+.reviews__info {
+    width: 573px;
+}
+
+.reviews__quotes--top {
+    position: relative;
+    right: 50px;
+    top: 40px;
+}
+
+.reviews__quotes--bottom {
+    position: relative;
+    left: 500px;
+    bottom: 20px;
+}
+
+.reviews__botttom {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviews__name {
+    margin-bottom: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #ff7a50;
+}
+.reviews__comment {
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.reviews__arrow--left {
+    margin-right: 54px;
+}
+
+/* ------/reviews------ */
