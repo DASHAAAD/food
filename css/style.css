@@ -262,3 +262,38 @@ img {
 }
 
 /* -----/delivery------ */
+
+/* ------restaurant------ */
+
+.restaurant {
+}
+
+.restaurant__title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.restaurant__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 43px;
+    text-align: center;
+}
+
+.restaurant-card {
+    text-align: left;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card__title {
+    margin-bottom: 14px;
+}
+
+.restaurant-card__time {
+    margin-right: 30px;
+}
+.restaurant-card__button {
+    width: 79px;
+    height: 33px;
+}
+
+/* ------/restaurant------- */
