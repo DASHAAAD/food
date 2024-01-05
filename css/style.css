@@ -40,6 +40,10 @@ button {
     border: none;
 }
 
+input {
+    all: unset;
+  }
+
 /* ------/reset------ */
 
 body {
@@ -381,3 +385,72 @@ img {
 }
 
 /* ------/reviews------ */
+
+/* -------subscription------ */
+
+.subscription {
+    
+}
+.subscription__container {
+    padding-top: 59px;
+    padding-bottom: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ff7a50;
+}
+
+.subscription__title,
+.subscription__text {
+    font-weight: 400;
+    color: #fff;
+}
+.subscription__title {
+    margin-bottom: 12px;
+    font-size: 40px;
+    line-height: 1.17;
+}
+
+.subscription__text {
+    margin-bottom: 31px;
+    font-size: 16px;
+    line-height: 1.87;
+}
+.subscription__form {
+    width: 838px;
+    height: 78px;
+    padding-left: 43px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 70px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.subscription__button {
+    width: 191px;
+    height: 58px;
+    font-weight: 500;
+    border-radius: 70px;
+}
+
+.subscription__button svg {
+    margin-right: 8px;
+}
+ 
+
+/* ------/subscription------- */
