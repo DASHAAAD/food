@@ -130,8 +130,7 @@ img {
 /* ------/header------ */
 
 /* -------hero------- */
-.hero {
-}
+
 .hero__container {
     display: flex;
     align-items: center;
@@ -173,8 +172,6 @@ img {
     padding-top: 124px;
 }
 
-.container {
-}
 .category__title {
     margin-bottom: 54px;
     text-align: center;
@@ -232,6 +229,7 @@ img {
 
 /* -----delivery------ */
 .delivery {
+    padding-top: 87px;
 }
 .delivery__container {
     display: flex;
@@ -270,6 +268,7 @@ img {
 /* ------restaurant------ */
 
 .restaurant {
+    padding-top: 128px;
 }
 
 .restaurant__title {
@@ -305,6 +304,7 @@ img {
 /* ------download------ */
 
 .download {
+    padding-top: 165px;
 }
 .download__container {
     display: flex;
@@ -332,7 +332,7 @@ img {
 
 /* ------reviews------ */
 .reviews {
-    margin-bottom: 125px;
+   padding-top: 166px;
 }
 
 .reviews__title {
@@ -389,6 +389,7 @@ img {
 /* -------subscription------ */
 
 .subscription {
+    padding-top: 124px;
     
 }
 .subscription__container {
@@ -454,3 +455,67 @@ img {
  
 
 /* ------/subscription------- */
+
+/* -------footer------- */
+.footer {
+   padding-top: 121px;
+}
+
+.footer__wrapper {
+    border-bottom: 1px solid #969696;
+}
+
+.footer__list {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-bottom: 8px;
+}
+
+.footer__contacts {
+    margin-bottom: 25px;
+}
+.footer__link {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer__social-network {
+    margin-right: 13px;
+}
+.footer__title {
+    margin-bottom: 15px;
+}
+.footer__texts a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer__bottom {
+    padding-top: 26px;
+}
+
+.footer__bottom-container {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+
+.footer__text,
+.footer__bottom-texts p {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.footer__bottom-texts {
+    display: flex;
+}
+
+.footer__bottom-texts p {
+    margin-right: 53px;
+}
+
+/* -------/footer------- */
